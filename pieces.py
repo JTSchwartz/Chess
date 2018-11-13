@@ -7,6 +7,7 @@ class Piece:
 	color = bool
 	moves = list()
 	moved_yet = False
+	origin_col = int
 
 	def __init__(self, id, color):
 		self.id = id
